@@ -1,0 +1,5 @@
+export const FORMULARIO_TAREAS  = 'FORMULARIO_TAREAS'
+export const OBTENER_TAREAS     = 'OBTENER_TAREAS'
+export const AGREGAR_TAREA      = 'AGREGAR_TAREA'
+export const ELIMINAR_TAREA     = 'ELIMINAR_TAREA'
+export const ESTADO_TAREA       = 'ESTADO_TAREA'
