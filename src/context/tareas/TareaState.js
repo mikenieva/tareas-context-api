@@ -32,7 +32,8 @@ export default function TareaState (props) {
     return (
         <TareaContext.Provider
             value={{
-                tareas: state.tareas
+                tareas: state.tareas,
+                obtenerTareas
             }}
         >
             {props.children}

@@ -19,6 +19,11 @@ export default function Tareas() {
                     )
                 })
             }
+            <button
+             onClick={() => ctx.obtenerTareas()}   
+            >
+                Agregar tarea
+            </button>
         </div>
     )
 }
